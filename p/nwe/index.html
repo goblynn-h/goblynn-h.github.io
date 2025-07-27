@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="悯农 锄禾日当午\n汗滴禾下土\n谁知盘中餐\n粒粒皆辛苦\n">
-<title>New</title>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="123 456\n">
+<title>Nwe</title>
 
-<link rel='canonical' href='https://goblynn-h.github.io/p/new/'>
+<link rel='canonical' href='https://goblynn-h.github.io/p/nwe/'>
 
-<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="New">
-<meta property='og:description' content="悯农 锄禾日当午\n汗滴禾下土\n谁知盘中餐\n粒粒皆辛苦\n">
-<meta property='og:url' content='https://goblynn-h.github.io/p/new/'>
+<link rel="stylesheet" href="/scss/style.min.946cca6c6259ef94ac55abfae7c7bf3291ea3ed5eea17ef77500b257217c6710.css"><meta property='og:title' content="Nwe">
+<meta property='og:description' content="123 456\n">
+<meta property='og:url' content='https://goblynn-h.github.io/p/nwe/'>
 <meta property='og:site_name' content='Goblynn'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-22T06:49:34&#43;08:00'/><meta property='article:modified_time' content='2025-05-22T06:49:34&#43;08:00'/>
-<meta name="twitter:title" content="New">
-<meta name="twitter:description" content="悯农 锄禾日当午\n汗滴禾下土\n谁知盘中餐\n粒粒皆辛苦\n">
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-07-28T01:08:06&#43;08:00'/><meta property='article:modified_time' content='2025-07-28T01:08:06&#43;08:00'/>
+<meta name="twitter:title" content="Nwe">
+<meta name="twitter:description" content="123 456\n">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -257,7 +257,7 @@
 
     <div class="article-title-wrapper">
         <h2 class="article-title">
-            <a href="/p/new/">New</a>
+            <a href="/p/nwe/">Nwe</a>
         </h2>
     
         
@@ -279,7 +279,7 @@
   <path d="M3 11h16" />
   <path d="M18 16.496v1.504l1 1" />
 </svg>
-                <time class="article-time--published">May 22, 2025</time>
+                <time class="article-time--published">Jul 28, 2025</time>
             </div>
         
 
@@ -295,11 +295,8 @@
     <section class="article-content">
     
     
-    <h2 id="悯农">悯农
-</h2><p>锄禾日当午<br>
-汗滴禾下土<br>
-谁知盘中餐<br>
-粒粒皆辛苦</p>
+    <h2 id="123">123
+</h2><p>456</p>
 
 </section>
 
@@ -457,6 +454,51 @@
 
         document.head.appendChild(customFont);
     }());
+</script>
+<style>
+    #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://goblynn-h.github.io/icons/backTop.svg);
+    }
+</style>
+
+<script>
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
 </script>
 
     </body>
