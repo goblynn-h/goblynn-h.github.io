@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="This is a test page for i18n support.\n">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
 <title>关于</title>
 
 <link rel='canonical' href='https://goblynn-h.github.io/%E5%85%B3%E4%BA%8E/'>
 
-<link rel="stylesheet" href="/scss/style.min.fc07e1f5a3cf75557c69a596cf930e6a4da3551b3effeaffca873467b472cd0f.css"><meta property='og:title' content="关于">
-<meta property='og:description' content="This is a test page for i18n support.\n">
+<link rel="stylesheet" href="/scss/style.min.b865dc08b12ed5f0c4a7b721c30b0e5fbb60790ce1196c16b41313fc34f03344.css"><meta property='og:title' content="关于">
+<meta property='og:description' content="">
 <meta property='og:url' content='https://goblynn-h.github.io/%E5%85%B3%E4%BA%8E/'>
-<meta property='og:site_name' content='Goblynn空间'>
+<meta property='og:site_name' content='Goblynn的空间'>
 <meta property='og:type' content='article'><meta property='article:section' content='Page' />
 <meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="This is a test page for i18n support.\n">
+<meta name="twitter:description" content="">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -71,7 +71,7 @@
         
         
         <div class="site-meta">
-            <h1 class="site-name"><a href="/">Goblynn空间</a></h1>
+            <h1 class="site-name"><a href="/">Goblynn的空间</a></h1>
             <h2 class="site-description">_(:з)∠)_</h2>
         </div>
     </header><ol class="menu-social">
@@ -276,8 +276,7 @@
     <section class="article-content">
     
     
-    <p>This is a test page for i18n support.</p>
-
+    
 </section>
 
 
@@ -483,7 +482,245 @@
 </script>
 
 
+<body>
+    <span class="js-cursor-container"></span>
+    <script>
+        (function fairyDustCursor() {
 
+            var possibleColors = ["#D61C59", "#E7D84B", "#1B8798"]
+            var width = window.innerWidth;
+            var height = window.innerHeight;
+            var cursor = { x: width / 2, y: width / 2 };
+            var particles = [];
+
+            function init() {
+                bindEvents();
+                loop();
+            }
+
+            
+            function bindEvents() {
+                document.addEventListener('mousemove', onMouseMove);
+                window.addEventListener('resize', onWindowResize);
+            }
+
+            function onWindowResize(e) {
+                width = window.innerWidth;
+                height = window.innerHeight;
+            }
+
+            function onMouseMove(e) {
+                cursor.x = e.clientX;
+                cursor.y = e.clientY;
+
+                addParticle(cursor.x, cursor.y, possibleColors[Math.floor(Math.random() * possibleColors.length)]);
+            }
+
+            function addParticle(x, y, color) {
+                var particle = new Particle();
+                particle.init(x, y, color);
+                particles.push(particle);
+            }
+
+            function updateParticles() {
+
+                
+                for (var i = 0; i < particles.length; i++) {
+                    particles[i].update();
+                }
+
+                
+                for (var i = particles.length - 1; i >= 0; i--) {
+                    if (particles[i].lifeSpan < 0) {
+                        particles[i].die();
+                        particles.splice(i, 1);
+                    }
+                }
+
+            }
+
+            function loop() {
+                requestAnimationFrame(loop);
+                updateParticles();
+            }
+
+            
+
+
+            function Particle() {
+
+                this.character = "*";
+                this.lifeSpan = 120; 
+                this.initialStyles = {
+                    "position": "fixed",
+                    "display": "inline-block",
+                    "top": "0px",
+                    "left": "0px",
+                    "pointerEvents": "none",
+                    "touch-action": "none",
+                    "z-index": "10000000",
+                    "fontSize": "25px",
+                    "will-change": "transform"
+                };
+
+                
+                this.init = function (x, y, color) {
+
+                    this.velocity = {
+                        x: (Math.random() < 0.5 ? -1 : 1) * (Math.random() / 2),
+                        y: 1
+                    };
+
+                    this.position = { x: x + 10, y: y + 10 };
+                    this.initialStyles.color = color;
+
+                    this.element = document.createElement('span');
+                    this.element.innerHTML = this.character;
+                    applyProperties(this.element, this.initialStyles);
+                    this.update();
+
+                    document.querySelector('.js-cursor-container').appendChild(this.element);
+                };
+
+                this.update = function () {
+                    this.position.x += this.velocity.x;
+                    this.position.y += this.velocity.y;
+                    this.lifeSpan--;
+
+                    this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px, 0) scale(" + (this.lifeSpan / 120) + ")";
+                }
+
+                this.die = function () {
+                    this.element.parentNode.removeChild(this.element);
+                }
+
+            }
+
+            
+
+
+            
+            function applyProperties(target, properties) {
+                for (var key in properties) {
+                    target.style[key] = properties[key];
+                }
+            }
+
+            if (!('ontouchstart' in window || navigator.msMaxTouchPoints)) init();
+        })();    
+    </script>
+</body>
+
+
+
+
+
+
+
+
+
+<div id="rainToggleBtn" class="rain-toggle-btn"></div>
+<style>
+    #rainBox{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+         
+        pointer-events: none;
+    }
+    .rain-toggle-btn {
+        position: fixed;
+        bottom: 50px;  
+        right: 30px;   
+        width: 100px;
+        height: 100px;
+        background-color: rgba(255, 255, 255, 0.232);  
+        border-radius: 50%;  
+        cursor: pointer;
+        z-index: 99;  
+        background-image: url(https://www.bing.com/th/id/OGC.d847612523ab2278444a2f3544b31d88?r=0&o=7&pid=1.7&rm=3&rurl=http%3a%2f%2fimg.soogif.com%2fr2YUv6m856i87HU2M5kUAjlSHhrACZ5e.gif&ehk=qK8OsxSpNP0F1DG0UVF4uVYplrOUw8TGtmxhxsa5Rwg%3d);  
+    }
+    .rain{
+        position: absolute;
+        width: 2px;
+        height: 50px;
+        background: linear-gradient(rgba(133, 103, 145, 0.3),rgba(171, 158, 174, 0.6));
+
+        &[data-scheme="dark"] {
+            position: absolute;
+            width: 2px;
+            height: 50px;
+            background: linear-gradient(rgba(255,255,255,.3),rgba(255,255,255,.6));
+        }
+    }
+</style>
+
+<body>
+    <div id="rainBox"></div>
+    <div class="content"> 
+    </div>
+    <script>
+        const rainToggleBtn = document.getElementById('rainToggleBtn');
+        const rainBox = document.getElementById('rainBox');
+
+        let rainIsActive = false; 
+        let rainIntervalId; 
+
+        
+        function toggleRain() {
+            if (rainIsActive) {
+                
+                clearInterval(rainIntervalId); 
+                rainBox.innerHTML = ''; 
+                rainIsActive = false;
+                
+                rainToggleBtn.classList.remove('active'); 
+            } else {
+                
+                rainIsActive = true;
+                rainIntervalId = setInterval(addRaindrop, 50); 
+                
+                rainToggleBtn.classList.add('active');
+            }
+        }
+
+        
+        rainToggleBtn.addEventListener('click', toggleRain);
+
+        
+        function addRaindrop() {
+            let boxHeight = rainBox.clientHeight;
+            let boxWidth = rainBox.clientWidth;
+
+            const rain = document.createElement('div');
+            rain.classList.add('rain');
+            rain.style.top = 0;
+            rain.style.left = Math.random() * boxWidth + 'px';
+            rain.style.opacity = Math.random();
+            rainBox.appendChild(rain);
+
+            let race = 1;
+            const timer = setInterval(()=>{
+                if(parseInt(rain.style.top) > boxHeight){
+                    clearInterval(timer);
+                    if (rainBox.contains(rain)) { 
+                        rainBox.removeChild(rain);
+                    }
+                }
+                race++;
+                rain.style.top = parseInt(rain.style.top) + race + 'px';
+            }, 20);
+        }
+
+        
+        window.onresize = function(){
+            rainBox.style.width = window.innerWidth + 'px';
+            rainBox.style.height = window.innerHeight + 'px';
+        };
+    </script>
+</body>
 
 
     </body>
