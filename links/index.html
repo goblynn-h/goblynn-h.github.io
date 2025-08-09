@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://goblynn-h.github.io/links/'>
 
-<link rel="stylesheet" href="/scss/style.min.b865dc08b12ed5f0c4a7b721c30b0e5fbb60790ce1196c16b41313fc34f03344.css"><meta property='og:title' content="Links">
+<link rel="stylesheet" href="/scss/style.min.c7c5c426bf0f5e382324de7aa3245a491ba410e83c8581f640c9f47c08920209.css"><meta property='og:title' content="Links">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://goblynn-h.github.io/links/'>
 <meta property='og:site_name' content='Goblynn的空间'>
@@ -506,6 +506,31 @@
     }());
 </script>
 
+
+<div id="aplayer"></div>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script>
+const staticDir = "https://goblynn-h.github.io/"
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    audio: [],
+    fixed: true,
+    lrcType: 3,
+    audio: [
+        {
+            
+            name: '你听得到',
+            artist: '周杰伦',
+            url: staticDir + 'music/周杰伦 - 你听得到/song.mp3',
+            cover: staticDir + 'music/周杰伦 - 你听得到/cover.webp',
+            lrc: staticDir + 'music/周杰伦 - 你听得到/lyrics.lrc',
+        }
+    ]
+});
+</script>
+
+
 <style>
     #backTopBtn {
         display: none;
@@ -792,6 +817,8 @@
         };
     </script>
 </body>
+
+
 
 
     </body>

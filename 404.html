@@ -6,11 +6,11 @@
 
 <link rel='canonical' href='https://goblynn-h.github.io/404.html'>
 
-<link rel="stylesheet" href="/scss/style.min.b865dc08b12ed5f0c4a7b721c30b0e5fbb60790ce1196c16b41313fc34f03344.css"><meta property='og:title' content="404 Page not found">
+<link rel="stylesheet" href="/scss/style.min.c7c5c426bf0f5e382324de7aa3245a491ba410e83c8581f640c9f47c08920209.css"><meta property='og:title' content="404 Page not found">
 <meta property='og:description' content="_(:з)∠)_">
 <meta property='og:url' content='https://goblynn-h.github.io/404.html'>
 <meta property='og:site_name' content='Goblynn的空间'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-08-01T00:00:00&#43;00:00 '/>
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-08-07T00:00:00&#43;00:00 '/>
 <meta name="twitter:title" content="404 Page not found">
 <meta name="twitter:description" content="_(:з)∠)_">
     <link rel="shortcut icon" href="/favicon.ico" />
@@ -287,6 +287,31 @@
         document.head.appendChild(customFont);
     }());
 </script>
+
+
+<div id="aplayer"></div>
+<script src="https://cdn.jsdelivr.net/npm/aplayer/dist/APlayer.min.js"></script>
+
+<script>
+const staticDir = "https://goblynn-h.github.io/"
+const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    audio: [],
+    fixed: true,
+    lrcType: 3,
+    audio: [
+        {
+            
+            name: '你听得到',
+            artist: '周杰伦',
+            url: staticDir + 'music/周杰伦 - 你听得到/song.mp3',
+            cover: staticDir + 'music/周杰伦 - 你听得到/cover.webp',
+            lrc: staticDir + 'music/周杰伦 - 你听得到/lyrics.lrc',
+        }
+    ]
+});
+</script>
+
 
 <style>
     #backTopBtn {
@@ -574,6 +599,8 @@
         };
     </script>
 </body>
+
+
 
 
     </body>
