@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
     <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="方块小人 恐龙 | 猎豹 犀牛 油条 大白 ">
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="方块小人 恐龙 | 猎豹 犀牛 油条 ">
 <title>几个折纸设计</title>
 
 <link rel='canonical' href='https://goblynn-h.github.io/p/zhezhisheji/'>
 
 <link rel="stylesheet" href="/scss/style.min.c7c5c426bf0f5e382324de7aa3245a491ba410e83c8581f640c9f47c08920209.css"><meta property='og:title' content="几个折纸设计">
-<meta property='og:description' content="方块小人 恐龙 | 猎豹 犀牛 油条 大白 ">
+<meta property='og:description' content="方块小人 恐龙 | 猎豹 犀牛 油条 ">
 <meta property='og:url' content='https://goblynn-h.github.io/p/zhezhisheji/'>
 <meta property='og:site_name' content='Goblynn的空间'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='折纸' /><meta property='article:tag' content='手工' /><meta property='article:published_time' content='2025-08-01T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-08-01T00:00:00&#43;00:00'/><meta property='og:image' content='https://goblynn-h.github.io/p/zhezhisheji/IMG_20160728_231003_704092f86e08906b.jpg' />
 <meta name="twitter:title" content="几个折纸设计">
-<meta name="twitter:description" content="方块小人 恐龙 | 猎豹 犀牛 油条 大白 "><meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:description" content="方块小人 恐龙 | 猎豹 犀牛 油条 "><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://goblynn-h.github.io/p/zhezhisheji/IMG_20160728_231003_704092f86e08906b.jpg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
@@ -442,6 +442,29 @@
 ></p>
 <h2 id="油条">油条
 </h2><center><img src = "IMG_20160827_104712_42da64a07478b0cf_converted.webp" width = "500" ></center>  
+<p><img src="/p/zhezhisheji/youtiaoshipai1.webp"
+	width="3072"
+	height="4096"
+	srcset="/p/zhezhisheji/youtiaoshipai1_hu_533e79405c0e078f.webp 480w, /p/zhezhisheji/youtiaoshipai1_hu_bfd7c44c6c3cd76b.webp 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="75"
+		data-flex-basis="180px"
+	
+>  <img src="/p/zhezhisheji/youtiaoshipai2.webp"
+	width="3072"
+	height="4096"
+	srcset="/p/zhezhisheji/youtiaoshipai2_hu_8102c0ebf011edaf.webp 480w, /p/zhezhisheji/youtiaoshipai2_hu_2e0d2c30fd5245e.webp 1024w"
+	loading="lazy"
+	
+	
+		class="gallery-image" 
+		data-flex-grow="75"
+		data-flex-basis="180px"
+	
+></p>
 <h2 id="大白">大白
 </h2><p><img src="/p/zhezhisheji/IMG_20170320_115948_19bdc892d2a027c9_converted.webp"
 	width="1920"
@@ -668,6 +691,38 @@ const ap = new APlayer({
         }
     ]
 });
+    
+
+    window.onbeforeunload = () => {
+        
+        const playInfo = {
+            index: ap.list.index,
+            currentTime: ap.audio.currentTime,
+            paused: ap.paused
+        };
+        localStorage.setItem("playInfo", JSON.stringify(playInfo));
+    };
+
+    
+
+    window.onload = () => {
+        
+        const playInfo = JSON.parse(localStorage.getItem("playInfo"));
+        if (!playInfo) {
+            return;
+        }
+        
+        ap.list.switch(playInfo.index);
+        
+        setTimeout(() => {
+            
+            ap.seek(playInfo.currentTime);
+            
+            if (!playInfo.paused) {
+                ap.play()
+            }
+        }, 500);
+    };
 </script>
 
 
