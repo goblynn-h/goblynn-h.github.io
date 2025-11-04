@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://goblynn-h.github.io/categories/%E6%96%87%E5%AD%97/'>
 
-<link rel="stylesheet" href="/scss/style.min.03e015f258e7e8728fd393a7e93030b1e5d6e34880be2c24e1329268cd7eb07d.css"><meta property='og:title' content="Category: 文字 - Goblynn's Zone">
+<link rel="stylesheet" href="/scss/style.min.a9f403f9d3ede4ecee8f0de434e4defd9d35ca20ecc9130a33eccdad3cdddfe7.css"><meta property='og:title' content="Category: 文字 - Goblynn's Zone">
 <meta property='og:description' content="_(:з)∠)_">
 <meta property='og:url' content='https://goblynn-h.github.io/categories/%E6%96%87%E5%AD%97/'>
 <meta property='og:site_name' content='Goblynn&#39;s Zone'>
@@ -441,137 +441,6 @@ const ap = new APlayer({
 </script>
 
 
-<body>
-    <span class="js-cursor-container"></span>
-    <script>
-        (function fairyDustCursor() {
-
-            var possibleColors = ["#D61C59", "#E7D84B", "#1B8798"]
-            var width = window.innerWidth;
-            var height = window.innerHeight;
-            var cursor = { x: width / 2, y: width / 2 };
-            var particles = [];
-
-            function init() {
-                bindEvents();
-                loop();
-            }
-
-            
-            function bindEvents() {
-                document.addEventListener('mousemove', onMouseMove);
-                window.addEventListener('resize', onWindowResize);
-            }
-
-            function onWindowResize(e) {
-                width = window.innerWidth;
-                height = window.innerHeight;
-            }
-
-            function onMouseMove(e) {
-                cursor.x = e.clientX;
-                cursor.y = e.clientY;
-
-                addParticle(cursor.x, cursor.y, possibleColors[Math.floor(Math.random() * possibleColors.length)]);
-            }
-
-            function addParticle(x, y, color) {
-                var particle = new Particle();
-                particle.init(x, y, color);
-                particles.push(particle);
-            }
-
-            function updateParticles() {
-
-                
-                for (var i = 0; i < particles.length; i++) {
-                    particles[i].update();
-                }
-
-                
-                for (var i = particles.length - 1; i >= 0; i--) {
-                    if (particles[i].lifeSpan < 0) {
-                        particles[i].die();
-                        particles.splice(i, 1);
-                    }
-                }
-
-            }
-
-            function loop() {
-                requestAnimationFrame(loop);
-                updateParticles();
-            }
-
-            
-
-
-            function Particle() {
-
-                this.character = "*";
-                this.lifeSpan = 120; 
-                this.initialStyles = {
-                    "position": "fixed",
-                    "display": "inline-block",
-                    "top": "0px",
-                    "left": "0px",
-                    "pointerEvents": "none",
-                    "touch-action": "none",
-                    "z-index": "10000000",
-                    "fontSize": "25px",
-                    "will-change": "transform"
-                };
-
-                
-                this.init = function (x, y, color) {
-
-                    this.velocity = {
-                        x: (Math.random() < 0.5 ? -1 : 1) * (Math.random() / 2),
-                        y: 1
-                    };
-
-                    this.position = { x: x + 10, y: y + 10 };
-                    this.initialStyles.color = color;
-
-                    this.element = document.createElement('span');
-                    this.element.innerHTML = this.character;
-                    applyProperties(this.element, this.initialStyles);
-                    this.update();
-
-                    document.querySelector('.js-cursor-container').appendChild(this.element);
-                };
-
-                this.update = function () {
-                    this.position.x += this.velocity.x;
-                    this.position.y += this.velocity.y;
-                    this.lifeSpan--;
-
-                    this.element.style.transform = "translate3d(" + this.position.x + "px," + this.position.y + "px, 0) scale(" + (this.lifeSpan / 120) + ")";
-                }
-
-                this.die = function () {
-                    this.element.parentNode.removeChild(this.element);
-                }
-
-            }
-
-            
-
-
-            
-            function applyProperties(target, properties) {
-                for (var key in properties) {
-                    target.style[key] = properties[key];
-                }
-            }
-
-            if (!('ontouchstart' in window || navigator.msMaxTouchPoints)) init();
-        })();    
-    </script>
-</body>
-
-
-
 
 
 
@@ -683,6 +552,17 @@ const ap = new APlayer({
 
 
 
+ <style>
+  @font-face {
+    font-family: '思源宋体';
+    src: url(https://goblynn-h.github.io/font/SourceHanSerifSC-Regular.otf) format('truetype');
+  }
+
+  :root {
+    --base-font-family: '思源宋体';
+    --code-font-family: '思源宋体';
+  }
+</style>
 
     </body>
 </html>
