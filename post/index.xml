@@ -7,16 +7,56 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Goblynn</copyright>
-        <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何快速写出一篇课程论文</title>
+        <link>https://goblynn-h.github.io/p/wirteclassessayquickly/</link>
+        <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://goblynn-h.github.io/p/wirteclassessayquickly/</guid>
+        <description>&lt;p&gt;大四上选了一门专业选修和两门通识，期末都是写论文。在写第二篇时我总结出一个流程，一天可以写完一篇，在 PaperPass 检测的重复率和 AI 率都在20%以内，最后总成绩分别是 90、89、92。可见这套流程确实有点实用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;流程如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;找一个靠谱的 AI，我当时是在 Google AI Studio 上用的 Gemini 3 Pro Preview&lt;/li&gt;
+&lt;li&gt;把论文要求发给AI，让它推荐题目，选定一个，并让AI生成大纲&lt;/li&gt;
+&lt;li&gt;上知网或其他专业性的文献网站，下载一些引用量高的论文，发给AI看，让它根据这些论文写内容，并标出引用的地方以便之后写参考文献部分，然后自己对内容逐句改写（这是降重复率和AI率的重点，多用比较白的话）&lt;/li&gt;
+&lt;li&gt;在 PaperPass 免费查重，根据查重结果继续修改，直到重复率和ai率都达到要求&lt;/li&gt;
+&lt;li&gt;在 Word 调整好格式，这个也很重要，很多老师看重格式&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;提醒：这不是完全傻瓜式的操作，自己要对 AI 生成的内容把关，比如要自行判断选题是否合理、要找质量高一点的文献、要去确认 AI 引用的是否是自己找的文献里的内容等。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>《我在七年后等你》鼠标指针</title>
         <link>https://goblynn-h.github.io/p/7yfn_cursors/</link>
-        <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+        <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
         
         <guid>https://goblynn-h.github.io/p/7yfn_cursors/</guid>
-        <description>&lt;p&gt;前几天在B站看一个游戏实况视频时，发现up主的鼠标指针挺有趣的，就想给自己电脑也换套指针样式，找的过程中意识到可以自己做一套，而这更吸引我，于是做了这套指针。没看什么教程，有问题就问Gemini，瞎捣鼓着做出来了，虽然不够精细，但对我自己来说够用了，以后说不定会改进。&lt;/p&gt;
-&lt;p&gt;下载地址：https://goblynn-h.github.io/downloads/7YFN_Cursors.zip&lt;/p&gt;
-&lt;p&gt;在B站发了安装过程：&lt;/p&gt;
-</description>
+        <description>&lt;p&gt;前几天在B站看一个游戏视频时，发现up主的鼠标指针挺有趣的，就想给自己电脑也换套指针样式，找的过程中意识到可以自己做一套，而这更吸引我，于是做了这套指针。问着Gemini瞎捣鼓着做出来了，虽然不够精细，但对我自己来说够用了，以后说不定会改进。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/7yfn_cursors/cursors.png&#34;
+	width=&#34;1509&#34;
+	height=&#34;849&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/7yfn_cursors/cursors_hu_fcff2237ab04bf99.png 480w, https://goblynn-h.github.io/p/7yfn_cursors/cursors_hu_31ba8148615b2dc.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://goblynn-h.github.io/downloads/7YFN_Cursors.zip&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&amp;ndash;&amp;gt; 下载链接 &amp;lt;&amp;ndash;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;在B站发了安装过程：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1D26uBVEKw/?share_source=copy_web&amp;amp;vd_source=c056573b739de6cbe2eb49db6baf2d59&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;《我在七年后等你》鼠标指针】&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;简单记录制作流程：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;素材获取&lt;/strong&gt;：下载 AssetStudio_Tuanjie-1.3.0 并打开，把游戏 apk 文件导入，然后点资产列表，过滤选项只选 Sprite 和 Texture2D，将所有文件导出得到游戏人物的图片素材。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指针制作&lt;/strong&gt;：用 aseprite 打开 png 图片，按快捷键 C 设置画布大小为 128 * 128，在 &lt;a class=&#34;link&#34; href=&#34;https://icons8.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;icons8&lt;/a&gt; 网站找图标，点击适合的图标进行颜色、大小等的设置，然后将设置好的图标直接复制 png 到 aseprite。设计好指针后，保存 .aseprite 源文件以备后续修改，导出 png（或 gif），在 Greenfish Icon Editor Pro 打开 png 图片（或 gif），设置热点，另存为ani格式文件。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;</description>
         </item>
         <item>
         <title>《蛤蟆先生去看心理医生》笔记</title>

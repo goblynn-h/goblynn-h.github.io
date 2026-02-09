@@ -7,12 +7,20 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
         <copyright>Goblynn</copyright>
-        <lastBuildDate>Mon, 26 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>分享</title>
-        <link>https://goblynn-h.github.io/categories/%E5%88%86%E4%BA%AB/</link>
-        <pubDate>Mon, 26 Jan 2026 00:00:00 +0000</pubDate>
+        <lastBuildDate>Sat, 07 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>经验分享</title>
+        <link>https://goblynn-h.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</link>
+        <pubDate>Sat, 07 Feb 2026 00:00:00 +0000</pubDate>
         
-        <guid>https://goblynn-h.github.io/categories/%E5%88%86%E4%BA%AB/</guid>
+        <guid>https://goblynn-h.github.io/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>DIY</title>
+        <link>https://goblynn-h.github.io/categories/diy/</link>
+        <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://goblynn-h.github.io/categories/diy/</guid>
         <description></description>
         </item>
         <item>
@@ -21,14 +29,6 @@
         <pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate>
         
         <guid>https://goblynn-h.github.io/categories/%E7%AC%94%E8%AE%B0/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>手工</title>
-        <link>https://goblynn-h.github.io/categories/%E6%89%8B%E5%B7%A5/</link>
-        <pubDate>Sat, 08 Nov 2025 00:00:00 +0000</pubDate>
-        
-        <guid>https://goblynn-h.github.io/categories/%E6%89%8B%E5%B7%A5/</guid>
         <description></description>
         </item>
         <item>
