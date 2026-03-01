@@ -13,7 +13,7 @@
         <pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate>
         
         <guid>https://goblynn-h.github.io/p/7yfn_cursors/</guid>
-        <description>&lt;p&gt;前几天在B站看一个游戏视频时，发现up主的鼠标指针挺有趣的，就想给自己电脑也换套指针样式，找的过程中意识到可以自己做一套，而这更吸引我，于是做了这套指针。问着Gemini瞎捣鼓着做出来了，虽然不够精细，但对我自己来说够用了，以后说不定会改进。&lt;/p&gt;
+        <description>&lt;img src="https://goblynn-h.github.io/p/7yfn_cursors/7YFN_Cursors_Banner.png" alt="Featured image of post 《我在七年后等你》鼠标指针" /&gt;&lt;p&gt;前几天在B站看一个游戏视频时，发现up主的鼠标指针挺有趣的，就想给自己电脑也换套指针样式，找的过程中意识到可以自己做一套，而这更吸引我，于是做了这套指针。问着Gemini瞎捣鼓着做出来了，虽然不够精细，但对我自己来说够用了，以后说不定会改进。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/7yfn_cursors/cursors.png&#34;
 	width=&#34;1509&#34;
 	height=&#34;849&#34;
@@ -33,8 +33,8 @@
 &lt;p&gt;简单记录制作流程：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;素材获取&lt;/strong&gt;：下载 AssetStudio_Tuanjie-1.3.0 并打开，把游戏 apk 文件导入，然后点资产列表，过滤选项只选 Sprite 和 Texture2D，将所有文件导出得到游戏人物的图片素材。&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;指针制作&lt;/strong&gt;：用 aseprite 打开 png 图片，按快捷键 C 设置画布大小为 128 * 128，在 &lt;a class=&#34;link&#34; href=&#34;https://icons8.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;icons8&lt;/a&gt; 网站找图标，点击适合的图标进行颜色、大小等的设置，然后将设置好的图标直接复制 png 到 aseprite。设计好指针后，保存 .aseprite 源文件以备后续修改，导出 png（或 gif），在 Greenfish Icon Editor Pro 打开 png 图片（或 gif），设置热点，另存为ani格式文件。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;指针制作&lt;/strong&gt;：用 aseprite 打开 png 图片，按快捷键 C 设置画布大小为 128 * 128，在 &lt;strong&gt;&lt;a class=&#34;link&#34; href=&#34;https://icons8.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;icons8&lt;/a&gt;&lt;/strong&gt; 网站找图标，点击适合的图标进行颜色、大小等的设置，然后将设置好的图标直接复制 png 到 aseprite。设计好指针后，保存 .aseprite 源文件以备后续修改，导出 png（或 gif），在 Greenfish Icon Editor Pro 打开 png 图片（或 gif），设置热点，另存为ani格式文件。&lt;/li&gt;
 &lt;/ol&gt;
 &lt;br&gt;</description>
         </item>
@@ -80,6 +80,177 @@
 		class=&#34;gallery-image&#34; 
 		data-flex-grow=&#34;177&#34;
 		data-flex-basis=&#34;426px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;以下是各个角度的照片，供参考：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014322473.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014322473.%E6%A0%87%E5%87%86_hu_639d2ef3221608de.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014322473.%E6%A0%87%E5%87%86_hu_464d42091257beef.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014359893.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014359893.%E6%A0%87%E5%87%86_hu_c98c8d7a27c55d98.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014359893.%E6%A0%87%E5%87%86_hu_fc3c8103771c7d1d.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014417126.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014417126.%E6%A0%87%E5%87%86_hu_bcbfe4c803d2d8e2.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014417126.%E6%A0%87%E5%87%86_hu_313a9463d2e820a.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014437013.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014437013.%E6%A0%87%E5%87%86_hu_fd2f32f0896ff30f.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014437013.%E6%A0%87%E5%87%86_hu_9c467d35314afe3b.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014526224.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014526224.%E6%A0%87%E5%87%86_hu_12692edea3a7473c.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014526224.%E6%A0%87%E5%87%86_hu_6490d1d0393cff2c.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014658130.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014658130.%E6%A0%87%E5%87%86_hu_b0d7e704050d9b28.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014658130.%E6%A0%87%E5%87%86_hu_14e8d7856ec491d1.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014737569.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;2448&#34;
+	height=&#34;3264&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014737569.%E6%A0%87%E5%87%86_hu_9beba1ab1e036956.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014737569.%E6%A0%87%E5%87%86_hu_d3430098f976d989.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014846009.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;2448&#34;
+	height=&#34;3264&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014846009.%E6%A0%87%E5%87%86_hu_5a64408d4c765dd.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014846009.%E6%A0%87%E5%87%86_hu_4752d27db6c71947.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;75&#34;
+		data-flex-basis=&#34;180px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014952821.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014952821.%E6%A0%87%E5%87%86_hu_800d4758cdc77806.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_014952821.%E6%A0%87%E5%87%86_hu_f756da420509a058.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015009704.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015009704.%E6%A0%87%E5%87%86_hu_cf6cbb92cf928b02.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015009704.%E6%A0%87%E5%87%86_hu_ec3923422d5bf32a.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015027066.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015027066.%E6%A0%87%E5%87%86_hu_a9dafb2a2ed88398.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015027066.%E6%A0%87%E5%87%86_hu_16fc3dd37ddaff9e.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015039718.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015039718.%E6%A0%87%E5%87%86_hu_82f3614a00aebbac.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015039718.%E6%A0%87%E5%87%86_hu_a49be40dbcd41b40.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015055592.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015055592.%E6%A0%87%E5%87%86_hu_5a98d7180a02ec3c.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015055592.%E6%A0%87%E5%87%86_hu_fe147ee842f47125.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;  &lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015118831.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015118831.%E6%A0%87%E5%87%86_hu_6c7383ece67e4bf3.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015118831.%E6%A0%87%E5%87%86_hu_8e266c69c4280545.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
+	
+&gt;&lt;br&gt;
+&lt;img src=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015804243.%E6%A0%87%E5%87%86.webp&#34;
+	width=&#34;3264&#34;
+	height=&#34;2448&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015804243.%E6%A0%87%E5%87%86_hu_a51d3983b1595607.webp 480w, https://goblynn-h.github.io/p/qinianjimu/IMG_20260228_015804243.%E6%A0%87%E5%87%86_hu_b868999f9f7ab059.webp 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;133&#34;
+		data-flex-basis=&#34;320px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;&lt;br&gt;&lt;br&gt;&lt;/p&gt;
