@@ -241,21 +241,143 @@
         
             
                 
-<section class="widget weather-widget">
+<section class="widget" style="
+    /* 1. 设置小黑板作为背景图片 */
+    background-image: url('/img/blackboard.png'); 
+    background-size: 90% 90%; /* 让图片拉伸铺满整个部件区域 */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 2. 调整部件的大小，比例要尽量贴合你的图片 */
+    width: 100%; /* 宽度跟随侧边栏 */
+    height: 250px; /* 高度你可以根据实际侧边栏宽度微调，保持比例 */
+    /* 3. 内边距，把天气文字挤到黑板内部区域 */
+    padding-top: 50px; /* 顶部留出挂绳和小熊耳朵的距离 */
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* 如果图片边缘有圆角，可以加一点 */
+    overflow: hidden;
+">
     
-    <div class="widget-content" style="display: flex; justify-content: center;">
+    
+    <iframe 
+        /* 👇 注意：我把链接里的文字颜色参数改成了白色（tc=%23FFFFFF）👇 */
+        src="https://www.widgets.link/#/view/weather-01?tc=%23E2E8F0&ff=4&fs=15&cm=0&lt=2&ci=101280102&cn=%E7%95%AA%E7%A6%BA&st=1&swd=0&sws=0&sh=0&suv=0" 
+        width="60%" 
+        height="80%" 
+        frameborder="0" 
+        scrolling="no" 
+        allowtransparency="true"
+        style="
+            /* 强制 iframe 背景透明，这样就能露出下面的黑板 */
+            background-color: transparent !important; 
+        ">
+    </iframe>
+</section>
+
+
+            
         
-        <iframe 
-            src="https://www.widgets.link/#/view/weather-01?bc=%23FEF08A&tc=%23365314&r=16&p=26&ff=3&fs=18&cm=1&bl=0&lt=2&ci=101280102&cn=%E7%95%AA%E7%A6%BA&st=1&swd=0&sws=0&sh=0&suv=0" 
-            width="100%" 
-            height="100" 
-            frameborder="0" 
-            scrolling="no" 
-            allowtransparency="true">
-        </iframe>
+            
+                
+<section class="widget" id="goblynn-whisper" style="
+    /* 👇👇👇 在这里修改背景颜色！目前是淡淡的草木绿 👇👇👇 */
+    background-color: rgba(100, 163, 13, 0.644); 
+    border-radius: 10px; 
+    padding: 20px; 
+    cursor: pointer; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;">
+    
+    
+    
+    
+    
+    <div class="widget-content" style="min-height: 60px; display: flex; align-items: center; justify-content: center;">
+        <p id="whisper-text" style="
+            font-size: 15px; 
+            line-height: 1.6; 
+            text-align: center; 
+            margin: 0; 
+            transition: opacity 0.3s ease; /* 文字淡入淡出动画 */
+        ">
+            点击倾听...
+        </p>
     </div>
 </section>
 
+
+<style>
+    #goblynn-whisper:hover {
+        transform: translateY(-2px) scale(1.02);
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+    }
+    #goblynn-whisper:active {
+        transform: translateY(0) scale(0.98);
+    }
+</style>
+
+
+<script>
+    
+    const whispers =[
+        "世人有时轻看物质，不知道人生难料，须有旧物相伴，回忆才能轻轻附着其上。 ——洪爱珠《老派少女购物路线》",
+        "画简单的画，跑调也要唱歌，写很烂的小诗...你不需要擅长某件事才能享受它。",
+        "所有的侏儒在他们父亲眼里都是私生子。 ——《权力的游戏》",
+        "不要忘记你是谁，因为这个世界不会忘记。把你的缺陷变成你的铠甲。",
+        "我喜欢睡觉，睡觉不喜欢我。 ——Goblynn",
+        "没有一种批判比自我批判更强烈，也没有一个法官比我们自己更严苛。 ——《蛤蟆先生》",
+        "如果不知道该往哪走，就先给自己搭一个温馨的窝吧。",
+        "一个人怎么样，不在于他知道什么，而在于他在所知道的东西中认同什么。 ——《风声》观后"
+    ];
+
+    const whisperBox = document.getElementById('goblynn-whisper');
+    const whisperText = document.getElementById('whisper-text');
+
+    
+    let availableIndices =[];
+    let lastShownIndex = -1; 
+
+    function changeWhisper() {
+        
+        if (availableIndices.length === 0) {
+            for (let i = 0; i < whispers.length; i++) {
+                availableIndices.push(i);
+            }
+        }
+
+        
+        let randomIndexPosition = Math.floor(Math.random() * availableIndices.length);
+        let selectedIndex = availableIndices[randomIndexPosition];
+
+        
+        
+        if (selectedIndex === lastShownIndex && whispers.length > 1) {
+            randomIndexPosition = (randomIndexPosition + 1) % availableIndices.length;
+            selectedIndex = availableIndices[randomIndexPosition];
+        }
+
+        
+        availableIndices.splice(randomIndexPosition, 1);
+        lastShownIndex = selectedIndex; 
+
+        
+        whisperText.style.opacity = 0;
+        setTimeout(() => {
+            whisperText.innerText = whispers[selectedIndex];
+            whisperText.style.opacity = 1;
+        }, 300);
+    }
+
+    
+    changeWhisper();
+
+    
+    whisperBox.addEventListener('click', changeWhisper);
+</script>
             
         
             
