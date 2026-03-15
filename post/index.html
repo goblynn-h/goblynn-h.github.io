@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://goblynn-h.github.io/post/'>
 
-<link rel="stylesheet" href="/scss/style.min.7a0cf83ea57bbfa114c16ec869b791a0d1be4622c443180dc2dc1b8a0d7222e3.css"><meta property='og:title' content="Posts">
+<link rel="stylesheet" href="/scss/style.min.4d193e375c6fa0861b022834888997fe79fe3c95add3a6e2798431aaaed08e8f.css"><meta property='og:title' content="Posts">
 <meta property='og:description' content="_(:з)∠)_">
 <meta property='og:url' content='https://goblynn-h.github.io/post/'>
 <meta property='og:site_name' content='Goblynn&#39;s Zone'>
@@ -242,6 +242,10 @@
             
                 
 <section class="widget" style="
+
+    margin-top: -50px;    /* 调节与上方模块的距离，数值越小越近 */
+    margin-bottom: -50px; /* 调节与下方模块的距离，数值越小越近 */
+
     /* 1. 设置小黑板作为背景图片 */
     background-image: url('/img/blackboard.png'); 
     background-size: 90% 90%; /* 让图片拉伸铺满整个部件区域 */
@@ -282,145 +286,157 @@
             
         
             
-                
-<section class="widget" id="goblynn-whisper" style="
-    /* 👇👇👇 在这里修改背景颜色！目前是淡淡的草木绿 👇👇👇 */
-    background-color: rgba(100, 163, 13, 0.644); 
-    border-radius: 10px; 
-    padding: 20px; 
+                <section class="widget" id="goblynn-whisper" style="
+    height: 240px; 
+    margin: 0px 0;
+    padding: 30px 20px;
+    box-sizing: border-box; 
+    background-image: url('/img/bianlitie.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
     cursor: pointer; 
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    user-select: none;">
-    
-    
-    
-    
-    
-    <div class="widget-content" style="min-height: 60px; display: flex; align-items: center; justify-content: center;">
-        <p id="whisper-text" style="
-            font-size: 15px; 
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+">
+    <div class="widget-content" style="
+        width: 70%; 
+        max-height: 100%; 
+        overflow-y: auto; 
+        scrollbar-width: thin;
+        scrollbar-color: rgba(0,0,0,0.1) transparent;
+    ">
+        <style>
+             
+            .widget-content::-webkit-scrollbar { width: 4px; }
+            .widget-content::-webkit-scrollbar-thumb { 
+                background-color: rgba(0,0,0,0.15); 
+                border-radius: 10px; 
+            }
+            .widget-content::-webkit-scrollbar-track { background: transparent; }
+
+             
+            #goblynn-whisper:hover {
+                transform: translateY(-2px) scale(1.02);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+            }
+            #goblynn-whisper:active {
+                transform: translateY(0) scale(0.98);
+            }
+        </style>
+        
+        
+        <div id="whisper-text" style="
+            font-size: 8px; 
             line-height: 1.6; 
-            text-align: center; 
+            text-align: left; 
             margin: 0; 
-            transition: opacity 0.3s ease; /* 文字淡入淡出动画 */
+            color: #302f2f; 
+            transition: opacity 0.3s ease;
         ">
             点击倾听...
-        </p>
+        </div>
     </div>
 </section>
 
-
-<style>
-    #goblynn-whisper:hover {
-        transform: translateY(-2px) scale(1.02);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    }
-    #goblynn-whisper:active {
-        transform: translateY(0) scale(0.98);
-    }
-</style>
-
-
 <script>
-    
     const whispers =[
-        "世人有时轻看物质，不知道人生难料，须有旧物相伴，回忆才能轻轻附着其上。 ——洪爱珠《老派少女购物路线》",
-        "画简单的画，跑调也要唱歌，写很烂的小诗...你不需要擅长某件事才能享受它。",
-        "所有的侏儒在他们父亲眼里都是私生子。 ——《权力的游戏》",
-        "不要忘记你是谁，因为这个世界不会忘记。把你的缺陷变成你的铠甲。",
-        "我喜欢睡觉，睡觉不喜欢我。 ——Goblynn",
-        "没有一种批判比自我批判更强烈，也没有一个法官比我们自己更严苛。 ——《蛤蟆先生》",
-        "如果不知道该往哪走，就先给自己搭一个温馨的窝吧。",
-        "一个人怎么样，不在于他知道什么，而在于他在所知道的东西中认同什么。 ——《风声》观后"
+        "世人有时轻看物质，不知道人生难料，须有旧物相伴，回忆才能轻轻附着其上。 \n——洪爱珠《老派少女购物路线》",
+        "凡对于以真话为笑话的，以笑话为真话的，以笑话为笑话的，只有一个方法：就是不说话。 \n——鲁迅",
+        "所有的侏儒在他们父亲眼里都是私生子。 \n——《权力的游戏》",
+        "不要忘记你是谁，因为这个世界不会忘记。把你的缺陷变成你的铠甲。", 
+        "在阶级社会中，每一个人都在一定的阶级地位中生活，各种思想无不打上阶级的烙印。 \n——毛泽东《实践论》",
+        "没有一种批判比自我批判更强烈，也没有一个法官比我们自己更严苛。 \n——《蛤蟆先生去看心理医生》",
+        "如果你为自己负责，就会认识到你对自己是有自主权的。因此你就知道自己有力量来改变处境，更重要的是，有力量改变你自己。 \n——《蛤蟆先生去看心理医生》",
+        "所谓活得真实，就是真诚地回应当下的需求。 \n——《蛤蟆先生去看心理医生》"
     ];
 
     const whisperBox = document.getElementById('goblynn-whisper');
     const whisperText = document.getElementById('whisper-text');
-
-    
     let availableIndices =[];
-    let lastShownIndex = -1; 
+    let lastShownIndex = -1;
 
     function changeWhisper() {
         
         if (availableIndices.length === 0) {
-            for (let i = 0; i < whispers.length; i++) {
-                availableIndices.push(i);
+            availableIndices = whispers.map((_, i) => i);
+            for (let i = availableIndices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [availableIndices[i], availableIndices[j]] = [availableIndices[j], availableIndices[i]];
             }
         }
 
         
-        let randomIndexPosition = Math.floor(Math.random() * availableIndices.length);
-        let selectedIndex = availableIndices[randomIndexPosition];
+        let selectedIndex = availableIndices.pop();
 
-        
         
         if (selectedIndex === lastShownIndex && whispers.length > 1) {
-            randomIndexPosition = (randomIndexPosition + 1) % availableIndices.length;
-            selectedIndex = availableIndices[randomIndexPosition];
+            availableIndices.push(selectedIndex);
+            selectedIndex = availableIndices.pop();
         }
 
+        lastShownIndex = selectedIndex;
+
         
-        availableIndices.splice(randomIndexPosition, 1);
-        lastShownIndex = selectedIndex; 
+        let rawText = whispers[selectedIndex];
+        let formattedHTML = "";
+
+        
+        
+        let parts = rawText.split('\n——');
+        
+        if (parts.length > 1) {
+            
+            let author = parts.pop(); 
+            let quote = parts.join('\n——'); 
+            
+            
+            quote = quote.replace(/\n/g, '<br>');
+            
+            
+            formattedHTML = `${quote}
+                <div style="text-align: right; font-size: 0.55em; opacity: 0.7; margin-top: 5px;">
+                    ——${author}
+                </div>`;
+        } else {
+            
+            formattedHTML = rawText.replace(/\n/g, '<br>');
+        }
 
         
         whisperText.style.opacity = 0;
         setTimeout(() => {
-            whisperText.innerText = whispers[selectedIndex];
+            whisperText.innerHTML = formattedHTML; 
             whisperText.style.opacity = 1;
         }, 300);
     }
 
     
     changeWhisper();
-
-    
     whisperBox.addEventListener('click', changeWhisper);
 </script>
             
         
-            
-                <section class="widget tagCloud">
-    <div class="widget-icon">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <line x1="5" y1="9" x2="19" y2="9" />
-  <line x1="5" y1="15" x2="19" y2="15" />
-  <line x1="11" y1="4" x2="7" y2="20" />
-  <line x1="17" y1="4" x2="13" y2="20" />
-</svg>
-
-
-
-    </div>
-    <h2 class="widget-title section-title">分类</h2>
-
-    <div class="tagCloud-tags">
-        
-            <a href="/categories/diy/" class="font_size_3">
-                DIY
-            </a>
-        
-            <a href="/categories/%E6%96%87%E5%AD%97/" class="font_size_2">
-                文字
-            </a>
-        
-            <a href="/categories/%E7%AC%94%E8%AE%B0/" class="font_size_1">
-                笔记
-            </a>
-        
-            <a href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" class="font_size_1">
-                经验分享
-            </a>
-        
-    </div>
-</section>
-
-            
-        
     </aside>
 
+
+
+<img src="/img/mylittlebear.png" style="
+    position: fixed;      /* 固定在屏幕上 */
+    bottom: -10px;        /* 沉底，稍微往下藏一点点更自然 */
+    right: 30px;          /* 距离右边框的距离 */
+    width: 200px;         /* 小熊的大小，根据你的图片自己改数字 */
+    z-index: 998;         /* 保证它在最上层，不被其他东西挡住 */
+    pointer-events: none; /* 【关键】让鼠标能穿透它点击后面的东西 */
+    transition: transform 0.3s ease; /* 加个动效过渡 */
+" 
+/* 下面两行是悬停彩蛋：鼠标放上去，小熊会稍微动一下 */
+onmouseover="this.style.transform='translateY(-10px) rotate(-5deg)'" 
+onmouseout="this.style.transform='translateY(0) rotate(0deg)'"
+>
 
             <main class="main full-width">
     <header>
@@ -686,14 +702,14 @@ const ap = new APlayer({
     }
     .rain-toggle-btn {
         position: fixed;
-        bottom: 50px;  
-        right: 30px;   
+        bottom: 25px;  
+        right: 175px;   
         width: 80px;
         height: 80px;
         background-color: rgba(255, 255, 255, 0.232);  
         border-radius: 50%;  
         cursor: pointer;
-        z-index: 99;  
+        z-index: 999;  
         background-image: url(https://www.bing.com/th/id/OGC.d847612523ab2278444a2f3544b31d88?r=0&o=7&pid=1.7&rm=3&rurl=http%3a%2f%2fimg.soogif.com%2fr2YUv6m856i87HU2M5kUAjlSHhrACZ5e.gif&ehk=qK8OsxSpNP0F1DG0UVF4uVYplrOUw8TGtmxhxsa5Rwg%3d);  
     }
     .rain{

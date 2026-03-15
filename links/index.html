@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://goblynn-h.github.io/links/'>
 
-<link rel="stylesheet" href="/scss/style.min.7a0cf83ea57bbfa114c16ec869b791a0d1be4622c443180dc2dc1b8a0d7222e3.css"><meta property='og:title' content="Links">
+<link rel="stylesheet" href="/scss/style.min.4d193e375c6fa0861b022834888997fe79fe3c95add3a6e2798431aaaed08e8f.css"><meta property='og:title' content="Links">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://goblynn-h.github.io/links/'>
 <meta property='og:site_name' content='Goblynn&#39;s Zone'>
@@ -248,6 +248,21 @@
     </aside>
 
 
+
+<img src="/img/mylittlebear.png" style="
+    position: fixed;      /* 固定在屏幕上 */
+    bottom: -10px;        /* 沉底，稍微往下藏一点点更自然 */
+    right: 30px;          /* 距离右边框的距离 */
+    width: 200px;         /* 小熊的大小，根据你的图片自己改数字 */
+    z-index: 998;         /* 保证它在最上层，不被其他东西挡住 */
+    pointer-events: none; /* 【关键】让鼠标能穿透它点击后面的东西 */
+    transition: transform 0.3s ease; /* 加个动效过渡 */
+" 
+/* 下面两行是悬停彩蛋：鼠标放上去，小熊会稍微动一下 */
+onmouseover="this.style.transform='translateY(-10px) rotate(-5deg)'" 
+onmouseout="this.style.transform='translateY(0) rotate(0deg)'"
+>
+
             <main class="main full-width">
     <article class="main-article">
     <header class="article-header">
@@ -382,6 +397,29 @@
                     
                     <div class="article-image">
                         <img src="/links/%E5%8F%B6%E8%99%8E%E5%A4%B4%E5%83%8F.webp" loading="lazy">
+                    </div>
+                
+            </a>
+        </article>
+    
+        <article>
+            <a href="https://rainymood.com/" target="_blank" rel="noopener">
+                <div class="article-details">
+                    <h2 class="article-title">Rainy Mood</h2>
+                    <footer class="article-time">
+                        
+                            很好看的背景，很好听的雨声
+                        
+                    </footer>
+                </div>
+        
+                
+                    
+                    
+                        
+                    
+                    <div class="article-image">
+                        <img src="/links/Rainy%20Mood.webp" loading="lazy">
                     </div>
                 
             </a>
@@ -629,14 +667,14 @@ const ap = new APlayer({
     }
     .rain-toggle-btn {
         position: fixed;
-        bottom: 50px;  
-        right: 30px;   
+        bottom: 25px;  
+        right: 175px;   
         width: 80px;
         height: 80px;
         background-color: rgba(255, 255, 255, 0.232);  
         border-radius: 50%;  
         cursor: pointer;
-        z-index: 99;  
+        z-index: 999;  
         background-image: url(https://www.bing.com/th/id/OGC.d847612523ab2278444a2f3544b31d88?r=0&o=7&pid=1.7&rm=3&rurl=http%3a%2f%2fimg.soogif.com%2fr2YUv6m856i87HU2M5kUAjlSHhrACZ5e.gif&ehk=qK8OsxSpNP0F1DG0UVF4uVYplrOUw8TGtmxhxsa5Rwg%3d);  
     }
     .rain{
