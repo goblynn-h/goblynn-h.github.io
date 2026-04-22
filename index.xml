@@ -7,15 +7,32 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Goblynn</copyright>
-        <lastBuildDate>Wed, 11 Mar 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>如何建立本地音乐库</title>
+        <link>https://goblynn-h.github.io/p/localmusicbase/</link>
+        <pubDate>Fri, 17 Apr 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://goblynn-h.github.io/p/localmusicbase/</guid>
+        <description>&lt;p&gt;大学之前，我听歌一直用网易云音乐。很多歌都没有版权，但因为我主要听相对固定的几个歌手，没有版权的歌也可以自己从别处下载传到音乐云盘听，也就还能接受。但是渐渐发现有歌曲下架，而且并不通知我，这让我很不爽。换个软件吧，却有一些歌网易才有。不如把喜欢的歌全下载下来。于是我根据网上的经验建立了自己的本地曲库，总结了以下流程：&lt;/p&gt;
+&lt;p&gt;一、音频下载
+找个资源网站或软件下载歌曲。&lt;/p&gt;
+&lt;p&gt;二、标签编辑
+手机上用“音乐标签”将歌曲的封面、歌词等信息嵌入音频文件中。&lt;/p&gt;
+&lt;p&gt;三、播放器
+安卓手机推荐椒盐音乐。&lt;/p&gt;
+&lt;p&gt;Windows 推荐 MusicPlayer2。可以设置快捷键，比如我的设置是 Alt + . 为显示和隐藏软件， Ctrl + . 为播放/暂停，Ctrl + 方向键为上一首/下一首、快进/回退，十分方便。&lt;/p&gt;
+&lt;p&gt;四、安卓与PC同步
+因为希望在手机和电脑上都能听歌，所以我将存放歌曲的文件夹在这两个地方进行同步。我用的是 ResilioSync，需要注意一下增删文件、更改文件夹名时可能发生同步冲突的问题。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>熄灯随想</title>
         <link>https://goblynn-h.github.io/p/thoughtsinbed/</link>
         <pubDate>Wed, 11 Mar 2026 00:00:00 +0000</pubDate>
         
         <guid>https://goblynn-h.github.io/p/thoughtsinbed/</guid>
-        <description>&lt;p&gt;昨晚一点放下手机，不久睡着，做了两个梦醒来，看表才三点三十三。回味完梦境后，越躺越不舒服，看样子是睡不着了，不觉拿起手机。看视频，又刷到爱健身的大炮，查莱维是什么意思，看耳机快递，打歌词时间轴，打完听发现每句都打慢了，中间几度放下手机又拿起来，直到快七点还醒着。我不禁想起高中某晚宿舍熄灯后躺在床上想到的几句话，今天发在这里。&lt;/p&gt;
-&lt;h3 id=&#34;熄灯随想&#34;&gt;熄灯随想
-&lt;/h3&gt;&lt;p&gt;我喜欢睡觉，&lt;br&gt;
+        <description>&lt;p&gt;昨晚一点放下手机，不久睡着，做了两个梦醒来，看表才三点三十三。回味完梦境后，越躺越不舒服，看样子是睡不着了，不觉拿起手机。看视频，又刷到爱健身的大炮，查莱维是什么意思，看耳机快递，打歌词时间轴，打完听发现每句都打慢了，中间几度放下手机又拿起来，直到快七点还醒着。我不禁想起高中某晚宿舍熄灯后躺在床上想到的几句话:&lt;/p&gt;
+&lt;p&gt;我喜欢睡觉，&lt;br&gt;
 睡觉不喜欢我。&lt;br&gt;
 逐梦时，&lt;br&gt;
 她助澜推波，&lt;br&gt;
@@ -25,6 +42,22 @@
 化作浮云一朵。&lt;/p&gt;
 &lt;p&gt;2021/10/04&lt;/p&gt;
 &lt;br&gt;</description>
+        </item>
+        <item>
+        <title>洗床单、被单流程</title>
+        <link>https://goblynn-h.github.io/p/washchaungdanandbeidan/</link>
+        <pubDate>Wed, 11 Feb 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://goblynn-h.github.io/p/washchaungdanandbeidan/</guid>
+        <description>&lt;ol&gt;
+&lt;li&gt;准备大半桶能浸没被单的温水，手伸进去感觉温温的就行&lt;/li&gt;
+&lt;li&gt;往水里加入几泵洗洁精，两勺左右小苏打，搅匀&lt;/li&gt;
+&lt;li&gt;放进被单或床单，一条用一个桶，按进水里浸泡，翻搅翻搅，泡半个小时到一个小时。水比较凉就泡久点，但不要一味久泡&lt;/li&gt;
+&lt;li&gt;泡完捞出来，用清水冲一遍&lt;/li&gt;
+&lt;li&gt;然后丢进洗衣机洗，水设置多点，洗衣液一条一盖，两条一盖半就差不多了&lt;/li&gt;
+&lt;li&gt;洗完晾干&lt;/li&gt;
+&lt;/ol&gt;
+</description>
         </item>
         <item>
         <title>如何快速写出一篇课程论文</title>
@@ -155,6 +188,17 @@
 &lt;h3 id=&#34;第十六章-道别与新生&#34;&gt;第十六章 道别与新生
 &lt;/h3&gt;&lt;p&gt;蛤蟆和朋友们聚餐，谈论各自的规划。&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;“人们太容易让重要的事件就这么过去，忘记关注或为它们庆祝，也许是因为我们通常都只在事后才明白它们有多重要。”&lt;/em&gt;&lt;/p&gt;
+&lt;br&gt;</description>
+        </item>
+        <item>
+        <title>《风声》读后感</title>
+        <link>https://goblynn-h.github.io/p/fengshengduhougan/</link>
+        <pubDate>Thu, 08 Jan 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://goblynn-h.github.io/p/fengshengduhougan/</guid>
+        <description>&lt;p&gt;暑假看的，现在是1月份了，果然到现在已经不记得多少了。可是记得那种受骗的心情。看书里写“我”去拜访李宁玉丈夫、采访顾小梦，我真以为这是真的，上网搜，怎么怪怪的，才发现上当了，而且才知道这是一种写作手法。我有点生气，最后一部分写肥原的也没心情看了，囫囵吞枣。&lt;/p&gt;
+&lt;p&gt;有一点让我挺有感触，张一挺是读书人，肥原爱好中国传统文化，可是一个叛国，一个阴险凶残。大概一个人怎么样，不在于他知道什么知识、学过什么道理，而在于他在他所知道的东西之中认同什么。而这种认同的选择性，似乎与成长环境、生活经历有很大关系。记得肥原年轻时和后来的理想是大相径庭的，不过因为囫囵吞枣，我忘记他是经历什么事了。&lt;/p&gt;
+&lt;p&gt;2026/1/8&lt;/p&gt;
 &lt;br&gt;</description>
         </item>
         <item>
@@ -697,6 +741,19 @@
 &lt;hr&gt;
 &lt;p&gt;发现除了改进的版本，这些都是在六年级到初一这段时间折的，那时真的很喜欢折纸。可是热情在初一下学期突然地消退了。也想过“折纸是一辈子的爱好”，原来人的兴趣爱好也会不断改变。不过现在偶尔看到可爱或有趣的作品还是会想要拿出纸来折，我宿舍的桌子上还装饰着几个折纸。这种状态也不错。&lt;/p&gt;
 &lt;br&gt;</description>
+        </item>
+        <item>
+        <title>记一次骑行</title>
+        <link>https://goblynn-h.github.io/p/riding/</link>
+        <pubDate>Wed, 12 Apr 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://goblynn-h.github.io/p/riding/</guid>
+        <description>&lt;p&gt;傍晚兴起，从食堂门口扫一辆共享单车，在校园里转悠。&lt;/p&gt;
+&lt;p&gt;天空阴沉沉的，飘着若有若无的细雨。雨丝落在脸上、鼻子上、嘴唇上，有微凉的感觉。四周的景物笼罩在天光下，颇显得落寞。道路两旁的树木排列得整齐，姿态却各异，受了梅雨天气的影响，都耷垂着暗绿的叶。鸟雀叽叽喳喳地叫。风迎面厚厚地吹来，但并不冷。空气清新，带着泥土和草木的气息。&lt;/p&gt;
+&lt;p&gt;一边看风景、认建筑，一边用手指轻扣车把，低声哼着还不很熟悉的歌。这远离宿舍和食堂的路，空旷而静谧，使人身心放松。时而左转，时而右转，在初次涉足的各条小道上，看树，看水，看桥，看楼……我觉得好像不是在学校里骑车，而是在哪里旅行。然而有些寂寞——无人可与分享这一刻的惬意。我掏出手机，拍下眼前的景象，终于没有发出去。&lt;/p&gt;
+&lt;p&gt;兜兜转转，回到宿舍楼下。停车，风戛然而止，脑袋一时间还没有从风的触感和声音中反应过来。走在地上，仿佛刚从另一个世界穿越回来。&lt;br&gt;
+&lt;br&gt;&lt;br&gt;&lt;/p&gt;
+</description>
         </item>
         <item>
         <title>归档</title>
