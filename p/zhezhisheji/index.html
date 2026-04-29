@@ -135,6 +135,18 @@
         
         
         <li >
+            <a href='/diary/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-notebook"><path stroke="none" d="M0 0h24v24H0z" fill="none" /><path d="M6 4h11a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-11a1 1 0 0 1 -1 -1v-14a1 1 0 0 1 1 -1m3 0v18" /><path d="M13 8l2 0" /><path d="M13 12l2 0" /></svg>
+                
+                <span>Diary</span>
+            </a>
+        </li>
+        
+        
+        <li >
             <a href='/archives/' >
                 
                 
@@ -204,6 +216,26 @@
     <aside class="sidebar right-sidebar sticky">
         
             
+                <form action="/search/" class="search-form widget" >
+        <p>
+            <label>搜索</label>
+            <input name="keyword" required placeholder="输入关键词..." />
+        
+            <button title="搜索">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+            </button>
+        </p>
+    </form>
+            
+        
+            
                 
     <section class="widget archives">
         <div class="widget-icon">
@@ -234,6 +266,187 @@
         </div>
     </section>
 
+            
+        
+            
+                
+<section class="widget" style="
+
+    margin-top: -50px;    /* 调节与上方模块的距离，数值越小越近 */
+    margin-bottom: -50px; /* 调节与下方模块的距离，数值越小越近 */
+
+    /* 1. 设置小黑板作为背景图片 */
+    background-image: url('/img/blackboard.png'); 
+    background-size: 90% 90%; /* 让图片拉伸铺满整个部件区域 */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* 2. 调整部件的大小，比例要尽量贴合你的图片 */
+    width: 100%; /* 宽度跟随侧边栏 */
+    height: 250px; /* 高度你可以根据实际侧边栏宽度微调，保持比例 */
+    /* 3. 内边距，把天气文字挤到黑板内部区域 */
+    padding-top: 50px; /* 顶部留出挂绳和小熊耳朵的距离 */
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px; /* 如果图片边缘有圆角，可以加一点 */
+    overflow: hidden;
+">
+    
+    
+    <iframe 
+        /* 👇 注意：我把链接里的文字颜色参数改成了白色（tc=%23FFFFFF）👇 */
+        src="https://www.widgets.link/#/view/weather-01?tc=%23E2E8F0&ff=4&fs=15&cm=0&lt=2&ci=101280102&cn=%E7%95%AA%E7%A6%BA&st=1&swd=0&sws=0&sh=0&suv=0" 
+        width="60%" 
+        height="80%" 
+        frameborder="0" 
+        scrolling="no" 
+        allowtransparency="true"
+        style="
+            /* 强制 iframe 背景透明，这样就能露出下面的黑板 */
+            background-color: transparent !important; 
+        ">
+    </iframe>
+</section>
+
+
+            
+        
+            
+                <section class="widget" id="goblynn-whisper" style="
+    height: 240px; 
+    margin: 0px 0;
+    padding: 30px 20px;
+    box-sizing: border-box; 
+    background-image: url('/img/bianlitie.png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer; 
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+">
+    <div class="widget-content" style="
+        width: 70%; 
+        max-height: 100%; 
+        overflow-y: auto; 
+        scrollbar-width: thin;
+        scrollbar-color: rgba(0,0,0,0.1) transparent;
+    ">
+        <style>
+             
+            .widget-content::-webkit-scrollbar { width: 4px; }
+            .widget-content::-webkit-scrollbar-thumb { 
+                background-color: rgba(0,0,0,0.15); 
+                border-radius: 10px; 
+            }
+            .widget-content::-webkit-scrollbar-track { background: transparent; }
+
+             
+            #goblynn-whisper:hover {
+                transform: translateY(-2px) scale(1.02);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0);
+            }
+            #goblynn-whisper:active {
+                transform: translateY(0) scale(0.98);
+            }
+        </style>
+        
+        
+        <div id="whisper-text" style="
+            font-size: 8px; 
+            line-height: 1.6; 
+            text-align: left; 
+            margin: 0; 
+            color: #302f2f; 
+            transition: opacity 0.3s ease;
+        ">
+            点击倾听...
+        </div>
+    </div>
+</section>
+
+<script>
+    const whispers =[
+        "世人有时轻看物质，不知道人生难料，须有旧物相伴，回忆才能轻轻附着其上。 \n——洪爱珠《老派少女购物路线》",
+        "凡对于以真话为笑话的，以笑话为真话的，以笑话为笑话的，只有一个方法：就是不说话。 \n——鲁迅",
+        "人无法控制自己的感受，他们能控制的就是他们选择做什么。",
+        "你享受挥霍的时间，就不算被挥霍。", 
+        "在阶级社会中，每一个人都在一定的阶级地位中生活，各种思想无不打上阶级的烙印。 \n——《实践论》",
+        "没有一种批判比自我批判更强烈，也没有一个法官比我们自己更严苛。 \n——《蛤蟆先生去看心理医生》",
+        "如果你为自己负责，就会认识到你对自己是有自主权的。因此你就知道自己有力量来改变处境，更重要的是，有力量改变你自己。 \n——《蛤蟆先生去看心理医生》",
+        "所谓活得真实，就是真诚地回应当下的需求。 \n——《蛤蟆先生去看心理医生》"
+    ];
+
+    const whisperBox = document.getElementById('goblynn-whisper');
+    const whisperText = document.getElementById('whisper-text');
+    let availableIndices =[];
+    let lastShownIndex = -1;
+
+    function changeWhisper() {
+        
+        if (availableIndices.length === 0) {
+            availableIndices = whispers.map((_, i) => i);
+            for (let i = availableIndices.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [availableIndices[i], availableIndices[j]] = [availableIndices[j], availableIndices[i]];
+            }
+        }
+
+        
+        let selectedIndex = availableIndices.pop();
+
+        
+        if (selectedIndex === lastShownIndex && whispers.length > 1) {
+            availableIndices.push(selectedIndex);
+            selectedIndex = availableIndices.pop();
+        }
+
+        lastShownIndex = selectedIndex;
+
+        
+        let rawText = whispers[selectedIndex];
+        let formattedHTML = "";
+
+        
+        
+        let parts = rawText.split('\n——');
+        
+        if (parts.length > 1) {
+            
+            let author = parts.pop(); 
+            let quote = parts.join('\n——'); 
+            
+            
+            quote = quote.replace(/\n/g, '<br>');
+            
+            
+            formattedHTML = `${quote}
+                <div style="text-align: right; font-size: 0.55em; opacity: 0.7; margin-top: 5px;">
+                    ——${author}
+                </div>`;
+        } else {
+            
+            formattedHTML = rawText.replace(/\n/g, '<br>');
+        }
+
+        
+        whisperText.style.opacity = 0;
+        setTimeout(() => {
+            whisperText.innerHTML = formattedHTML; 
+            whisperText.style.opacity = 1;
+        }, 300);
+    }
+
+    
+    changeWhisper();
+    whisperBox.addEventListener('click', changeWhisper);
+</script>
             
         
     </aside>
