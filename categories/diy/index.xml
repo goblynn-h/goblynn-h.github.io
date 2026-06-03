@@ -7,7 +7,36 @@
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Goblynn</copyright>
-        <lastBuildDate>Sat, 30 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/categories/diy/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 03 Jun 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://goblynn-h.github.io/categories/diy/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>两个小工具</title>
+        <link>https://goblynn-h.github.io/p/twotools/</link>
+        <pubDate>Wed, 03 Jun 2026 00:00:00 +0000</pubDate>
+        
+        <guid>https://goblynn-h.github.io/p/twotools/</guid>
+        <description>&lt;img src="https://goblynn-h.github.io/p/twotools/cover.png" alt="Featured image of post 两个小工具" /&gt;&lt;p&gt;用Claude Code + DeepSeek做了两个小工具。&lt;/p&gt;
+&lt;p&gt;第一个是“看过”，用来记录看过的书籍、影视作品以及自己的笔记、想法。没去找类似的软件，因为想要体验一下vibe coding，同时做一个只有自己需要的功能的工具。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/twotools/cover.png&#34;
+	width=&#34;273&#34;
+	height=&#34;102&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/twotools/cover_hu_1a073277d2b1b0e7.png 480w, https://goblynn-h.github.io/p/twotools/cover_hu_b9e012cbb0aa3030.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;267&#34;
+		data-flex-basis=&#34;642px&#34;
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;第二个是“闪记”，功能是按下快捷键弹出一个输入框，输入文字后回车，内容自动追加到指定路径下以当日日期为名的md文件，并标注记录时间。&lt;/p&gt;
+&lt;p&gt;冒出做“闪记”的想法，是因为我在看影视作品的时候有时会突然想说点什么，这时候就会暂停、切换到笔记软件打字、再切回播放页面，有点不方便。如果可以暂停后直接打字，然后直接恢复播放，看完再去整理那些想法，就会方便很多。&lt;/p&gt;
+&lt;p&gt;至于为什么这么在意时间，每条记录都要标注，首先是受我玩过的一个游戏的影响。那个游戏叫《恶狼游戏》，里面有个角色，随身带着一个本子，每隔30分钟会进行一次记录。因为每条记录都有精确时间，在他被害后，人们根据他的记录来推理线索。每隔30分都要进行一次记录，确实有点夸张，但是每次记录都留下时间，我觉得这还挺不错的，所以我的日记也开始采用这种形式，不是每天到最后才写，而是想写什么的时候就写，并标上时间，慢慢形成了习惯。&lt;/p&gt;
+&lt;p&gt;其次是我感到记忆的不可靠。翻看以前的照片，有时会发现自己原来一直记错了某些事的时间。对过往的痕迹留下精确时间，可以减少记忆出错，也便于以后有需要时回溯。&lt;/p&gt;
+&lt;p&gt;源码和exe文件都传到GitHub了：&lt;a class=&#34;link&#34; href=&#34;https://github.com/goblynn-h/seen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;看过&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://github.com/goblynn-h/flashnote&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;闪记&lt;/a&gt;&lt;/p&gt;
+&lt;br&gt;</description>
+        </item>
+        <item>
         <title>洛天依布娃娃</title>
         <link>https://goblynn-h.github.io/p/dollluotianyi/</link>
         <pubDate>Sat, 30 May 2026 00:00:00 +0000</pubDate>
