@@ -14,25 +14,37 @@
         
         <guid>https://goblynn-h.github.io/p/twotools/</guid>
         <description>&lt;img src="https://goblynn-h.github.io/p/twotools/cover.png" alt="Featured image of post 两个小工具" /&gt;&lt;p&gt;用Claude Code + DeepSeek做了两个小工具。&lt;/p&gt;
-&lt;p&gt;第一个是“看过”，用来记录看过的书籍、影视作品以及自己的笔记、想法。没去找类似的软件，因为想要体验一下vibe coding，同时做一个只有自己需要的功能的工具。&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/twotools/cover.png&#34;
-	width=&#34;273&#34;
-	height=&#34;102&#34;
-	srcset=&#34;https://goblynn-h.github.io/p/twotools/cover_hu_1a073277d2b1b0e7.png 480w, https://goblynn-h.github.io/p/twotools/cover_hu_b9e012cbb0aa3030.png 1024w&#34;
+&lt;p&gt;第一个是“Seen”，用来记录看过的书籍、影视作品以及自己的笔记、想法。没去找类似的软件，因为想要体验一下vibe coding，同时做一个只有自己需要的功能的工具。我比较满意的是所有笔记和封面都从指定文件夹读取，这个文件夹可以放在 obsidian 的仓库文件夹里，这样在 obsidian 里也能查看。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/twotools/Seen.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;973&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/twotools/Seen_hu_c0e2758825964e57.png 480w, https://goblynn-h.github.io/p/twotools/Seen_hu_bb85bcd34ac6303d.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 	
 		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;267&#34;
-		data-flex-basis=&#34;642px&#34;
+		data-flex-grow=&#34;197&#34;
+		data-flex-basis=&#34;473px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;第二个是“闪记”，功能是按下快捷键弹出一个输入框，输入文字后回车，内容自动追加到指定路径下以当日日期为名的md文件，并标注记录时间。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/twotools/flash.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1004&#34;
+	srcset=&#34;https://goblynn-h.github.io/p/twotools/flash_hu_816f191d9e5e6f68.png 480w, https://goblynn-h.github.io/p/twotools/flash_hu_5e3aab64be42b599.png 1024w&#34;
+	loading=&#34;lazy&#34;
+	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;191&#34;
+		data-flex-basis=&#34;458px&#34;
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;冒出做“闪记”的想法，是因为我在看影视作品的时候有时会突然想说点什么，这时候就会暂停、切换到笔记软件打字、再切回播放页面，有点不方便。如果可以暂停后直接打字，然后直接恢复播放，看完再去整理那些想法，就会方便很多。&lt;/p&gt;
 &lt;p&gt;至于为什么这么在意时间，每条记录都要标注，首先是受我玩过的一个游戏的影响。那个游戏叫《恶狼游戏》，里面有个角色，随身带着一个本子，每隔30分钟会进行一次记录。因为每条记录都有精确时间，在他被害后，人们根据他的记录来推理线索。每隔30分都要进行一次记录，确实有点夸张，但是每次记录都留下时间，我觉得这还挺不错的，所以我的日记也开始采用这种形式，不是每天到最后才写，而是想写什么的时候就写，并标上时间，慢慢形成了习惯。&lt;/p&gt;
 &lt;p&gt;其次是我感到记忆的不可靠。翻看以前的照片，有时会发现自己原来一直记错了某些事的时间。对过往的痕迹留下精确时间，可以减少记忆出错，也便于以后有需要时回溯。&lt;/p&gt;
 &lt;p&gt;源码和exe文件都传到GitHub了：&lt;a class=&#34;link&#34; href=&#34;https://github.com/goblynn-h/seen&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;看过&lt;/a&gt; &lt;a class=&#34;link&#34; href=&#34;https://github.com/goblynn-h/flashnote&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Seen&lt;/a&gt;、&lt;a class=&#34;link&#34; href=&#34;https://github.com/goblynn-h/flashnote&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;闪记&lt;/a&gt;&lt;/p&gt;
 &lt;br&gt;</description>
         </item>
@@ -899,7 +911,7 @@
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;油条&#34;&gt;油条
-&lt;/h2&gt;&lt;p&gt;某个早上心血来潮的产物，也是我唯一一个有了想法很快就折出来的作品。附上实拍过程。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;某个早上吃油条后一时兴起折的，也是我唯一一个有了想法很快就折出来的作品。附上实拍过程。&lt;/p&gt;
 &lt;center&gt;&lt;img src = &#34;IMG_20160827_104712_42da64a07478b0cf_converted.webp&#34; width = &#34;300&#34; &gt;&lt;/center&gt;  
 &lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/zhezhisheji/youtiaoshipai1.webp&#34;
 	width=&#34;3072&#34;
@@ -972,8 +984,9 @@
 		data-flex-basis=&#34;240px&#34;
 	
 &gt;&lt;/p&gt;
-&lt;h2 id=&#34;heading&#34;&gt;😋
-&lt;/h2&gt;&lt;center&gt;&lt;img src = &#34;2021-05-21_130058.webp&#34; width = &#34;300&#34; &gt;&lt;/center&gt;
+&lt;h2 id=&#34;heading&#34;&gt;😪
+&lt;/h2&gt;&lt;p&gt;无聊拿着笔芯袋乱捏。&lt;/p&gt;
+&lt;center&gt;&lt;img src = &#34;2021-05-21_130058.webp&#34; width = &#34;300&#34; &gt;&lt;/center&gt;
 &lt;h2 id=&#34;大白&#34;&gt;大白
 &lt;/h2&gt;&lt;p&gt;第一张图是初一的时候折的，第二张是大一的时候重新整形的版本，CP也是大一时重画的。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://goblynn-h.github.io/p/zhezhisheji/IMG_20170320_115948_19bdc892d2a027c9_converted.webp&#34;
